@@ -57,3 +57,4 @@ if st.button("Recommend"):
         st.table(recs)
     except ValueError as e:
         st.error(str(e))
+
